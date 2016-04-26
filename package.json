@@ -1,6 +1,6 @@
 {
     "name": "selenium-local",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "standalone selenium server",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,9 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "cucumber": "^0.10.2",
         "nightwatch": "^0.8.18",
+        "nightwatch-cucumber": "^2.1.7",
         "selenium-standalone": "^5.1.0"
     }
 }
